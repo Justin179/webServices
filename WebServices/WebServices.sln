@@ -5,6 +5,11 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServices", "WebServices\WebServices.csproj", "{42A63CC7-AE3D-46AD-AB36-886174559936}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorWebApplication", "CalculatorWebApplication\CalculatorWebApplication.csproj", "{1D0079FA-F0CE-4C5A-B632-A6844A40DAAE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{42A63CC7-AE3D-46AD-AB36-886174559936} = {42A63CC7-AE3D-46AD-AB36-886174559936}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{42A63CC7-AE3D-46AD-AB36-886174559936}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42A63CC7-AE3D-46AD-AB36-886174559936}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42A63CC7-AE3D-46AD-AB36-886174559936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D0079FA-F0CE-4C5A-B632-A6844A40DAAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D0079FA-F0CE-4C5A-B632-A6844A40DAAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D0079FA-F0CE-4C5A-B632-A6844A40DAAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D0079FA-F0CE-4C5A-B632-A6844A40DAAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
